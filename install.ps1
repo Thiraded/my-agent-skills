@@ -87,7 +87,7 @@ if ($src) {
       if ($Link) { New-Item -ItemType Junction -Path $out -Target $s.FullName | Out-Null }
       else {
         Copy-Item $s.FullName $out -Recurse
-        if ($t -eq 'claude') { Remove-Item (Join-Path $out 'agents\openai.yaml') -ErrorAction SilentlyContinue }
+        if ($t -eq 'claude') { Remove-Item (Join-Path $out 'agents\openai.yaml') -ErrorAction SilentlyContinue; Remove-Item (Join-Path $out 'agents') -ErrorAction SilentlyContinue }
         if ($Prefix) {
           $f = Join-Path $out 'SKILL.md'
           $c = Get-Content $f -Raw
