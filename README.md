@@ -10,6 +10,8 @@ A storage library of agent skills (`SKILL.md`) for Claude Code and Codex. Nothin
 git clone https://github.com/Thiraded/my-agent-skills.git
 cd my-agent-skills
 bash install.sh --list                                  # see categories and skills
+bash install.sh --pick --project /path/to/proj          # numbered menu (type numbers like: 1 3 7-9)
+bash install.sh 06-setup --scaffold --project /path/to/proj   # skills + task workflow in one go
 bash install.sh 04-media-audio --project /path/to/proj  # install a whole category
 bash install.sh ref-board music --project /path/to/proj --prefix media-
 ```
@@ -28,9 +30,11 @@ Windows PowerShell:
 | `--project DIR` (`-Project`) | target project, default current directory |
 | `--agents claude,codex` (`-Agents`) | targets `.claude/skills` and/or `.agents/skills` (default both) |
 | `--prefix P` (`-Prefix`) | rename installed skills (`name:` is rewritten) |
+| `--pick` (`-Pick`) | numbered menu; type numbers separated by spaces (ranges ok), several lines allowed, empty line to finish |
+| `--scaffold` (`-Scaffold`) | also create `docs/tasks/`, `scripts/task.mjs` and the `AGENTS.md` pointer (no agent needed) |
 | `--link` (`-Link`) | symlink / junction instead of copy (cannot combine with prefix) |
 
-Existing folders are never overwritten. Start a new session after installing; skills are discovered at startup.
+Without any argument the installer prints examples and installs nothing. By default skills are installed twice (Claude and Codex folders); use `--agents claude` if you only use Claude. Existing folders are never overwritten. To remove a skill, delete its folder. Start a new session after installing; skills are discovered at startup.
 
 ## What is inside
 
@@ -50,7 +54,8 @@ Existing folders are never overwritten. Start a new session after installing; sk
 
 ### setup-project
 
-Install it into a project, then in a new session ask: "set up this project" (or `/setup-project`).
+Fastest: `bash install.sh 06-setup --scaffold --project DIR` installs the skill and creates the task files directly.
+Or install it into a project, then in a new session ask: "set up this project" (or `/setup-project`).
 The agent asks which categories you need, runs the installer, copies the task scaffold
 (`docs/tasks/WORKFLOW.md`, `docs/tasks/TEMPLATE.md`, `scripts/task.mjs`) and adds a pointer to `AGENTS.md`.
 
