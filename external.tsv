@@ -1,0 +1,27 @@
+# name<TAB>github owner/repo<TAB>folder inside repo. Fetched from the original author on install; nothing is redistributed here.
+ask-matt	mattpocock/skills	skills/engineering/ask-matt
+code-review	mattpocock/skills	skills/engineering/code-review
+codebase-design	mattpocock/skills	skills/engineering/codebase-design
+diagnosing-bugs	mattpocock/skills	skills/engineering/diagnosing-bugs
+domain-modeling	mattpocock/skills	skills/engineering/domain-modeling
+find-skills	vercel-labs/skills	skills/find-skills
+grill-me	mattpocock/skills	skills/productivity/grill-me
+grill-with-docs	mattpocock/skills	skills/engineering/grill-with-docs
+grilling	mattpocock/skills	skills/productivity/grilling
+implement	mattpocock/skills	skills/engineering/implement
+improve-codebase-architecture	mattpocock/skills	skills/engineering/improve-codebase-architecture
+loop-me	mattpocock/skills	skills/in-progress/loop-me
+prototype	mattpocock/skills	skills/engineering/prototype
+research	mattpocock/skills	skills/engineering/research
+resolving-merge-conflicts	mattpocock/skills	skills/engineering/resolving-merge-conflicts
+skill-creator	anthropics/skills	skills/skill-creator
+tdd	mattpocock/skills	skills/engineering/tdd
+teach	mattpocock/skills	skills/productivity/teach
+to-questionnaire	mattpocock/skills	skills/productivity/to-questionnaire
+to-spec	mattpocock/skills	skills/engineering/to-spec
+to-tickets	mattpocock/skills	skills/engineering/to-tickets
+ui-ux-reviewer	arjenschwarz/agentic-coding	claude/skills/ui-ux-reviewer
+using-superpowers	obra/superpowers	skills/using-superpowers
+wait-what	mattpocock/skills	skills/productivity/wait-what
+wayfinder	mattpocock/skills	skills/engineering/wayfinder
+writing-for-agents	mattpocock/skills	skills/productivity/writing-for-agents

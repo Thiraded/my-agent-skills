@@ -81,3 +81,41 @@ This repo does not ship the author's private mod; the skill documents the mechan
 - Own skills (`claude-mod-workflow`, `gemini-research`, `ref-board`, `setup-project`, `setup-auto-clear`, installers): MIT, see `LICENSE`.
 - `music`, `sound-effects`, `voice-isolator`, `microsoft-foundry`: their frontmatter declares `license: MIT`; they keep their original text and authorship.
 - Other skills the author uses locally (Unity, Matt Pocock-style engineering skills, research helpers and others) are **not** included because their license could not be verified. Get them from their original sources.
+
+## External skills (not hosted here)
+
+These belong to their original authors. This repo only stores the link; the installer downloads them straight from GitHub into your project.
+
+```bash
+./install.sh --pick                    # numbered menu, choose what to install
+./install.sh tdd grill-me --project D:/MyGame
+```
+
+| Skill | Source |
+|---|---|
+| `ask-matt` | [mattpocock/skills](https://github.com/mattpocock/skills/tree/HEAD/skills/engineering/ask-matt) |
+| `code-review` | [mattpocock/skills](https://github.com/mattpocock/skills/tree/HEAD/skills/engineering/code-review) |
+| `codebase-design` | [mattpocock/skills](https://github.com/mattpocock/skills/tree/HEAD/skills/engineering/codebase-design) |
+| `diagnosing-bugs` | [mattpocock/skills](https://github.com/mattpocock/skills/tree/HEAD/skills/engineering/diagnosing-bugs) |
+| `domain-modeling` | [mattpocock/skills](https://github.com/mattpocock/skills/tree/HEAD/skills/engineering/domain-modeling) |
+| `find-skills` | [vercel-labs/skills](https://github.com/vercel-labs/skills/tree/HEAD/skills/find-skills) |
+| `grill-me` | [mattpocock/skills](https://github.com/mattpocock/skills/tree/HEAD/skills/productivity/grill-me) |
+| `grill-with-docs` | [mattpocock/skills](https://github.com/mattpocock/skills/tree/HEAD/skills/engineering/grill-with-docs) |
+| `grilling` | [mattpocock/skills](https://github.com/mattpocock/skills/tree/HEAD/skills/productivity/grilling) |
+| `implement` | [mattpocock/skills](https://github.com/mattpocock/skills/tree/HEAD/skills/engineering/implement) |
+| `improve-codebase-architecture` | [mattpocock/skills](https://github.com/mattpocock/skills/tree/HEAD/skills/engineering/improve-codebase-architecture) |
+| `loop-me` | [mattpocock/skills](https://github.com/mattpocock/skills/tree/HEAD/skills/in-progress/loop-me) |
+| `prototype` | [mattpocock/skills](https://github.com/mattpocock/skills/tree/HEAD/skills/engineering/prototype) |
+| `research` | [mattpocock/skills](https://github.com/mattpocock/skills/tree/HEAD/skills/engineering/research) |
+| `resolving-merge-conflicts` | [mattpocock/skills](https://github.com/mattpocock/skills/tree/HEAD/skills/engineering/resolving-merge-conflicts) |
+| `skill-creator` | [anthropics/skills](https://github.com/anthropics/skills/tree/HEAD/skills/skill-creator) |
+| `tdd` | [mattpocock/skills](https://github.com/mattpocock/skills/tree/HEAD/skills/engineering/tdd) |
+| `teach` | [mattpocock/skills](https://github.com/mattpocock/skills/tree/HEAD/skills/productivity/teach) |
+| `to-questionnaire` | [mattpocock/skills](https://github.com/mattpocock/skills/tree/HEAD/skills/productivity/to-questionnaire) |
+| `to-spec` | [mattpocock/skills](https://github.com/mattpocock/skills/tree/HEAD/skills/engineering/to-spec) |
+| `to-tickets` | [mattpocock/skills](https://github.com/mattpocock/skills/tree/HEAD/skills/engineering/to-tickets) |
+| `ui-ux-reviewer` | [arjenschwarz/agentic-coding](https://github.com/arjenschwarz/agentic-coding/tree/HEAD/claude/skills/ui-ux-reviewer) |
+| `using-superpowers` | [obra/superpowers](https://github.com/obra/superpowers/tree/HEAD/skills/using-superpowers) |
+| `wait-what` | [mattpocock/skills](https://github.com/mattpocock/skills/tree/HEAD/skills/productivity/wait-what) |
+| `wayfinder` | [mattpocock/skills](https://github.com/mattpocock/skills/tree/HEAD/skills/engineering/wayfinder) |
+| `writing-for-agents` | [mattpocock/skills](https://github.com/mattpocock/skills/tree/HEAD/skills/productivity/writing-for-agents) |
